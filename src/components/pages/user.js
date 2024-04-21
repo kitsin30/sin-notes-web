@@ -15,9 +15,9 @@ function UserData(){
 
   return (
     <>
-      <div>
+      <div className='app-about-content'>
         {data ? data.userList.map((item) => (
-          <div key={item.id}>
+          <div key={item.id} >
             <p>{item.username}</p>
           </div>
         )) : 'null'}
